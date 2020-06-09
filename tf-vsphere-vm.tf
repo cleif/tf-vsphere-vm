@@ -1,4 +1,4 @@
-data "vsphere_datacenter" "datacenter" {
+data "vsphere_datacenter" "dc" {
   name = "HomeLab"
 }
 
